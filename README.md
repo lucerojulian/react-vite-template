@@ -3,7 +3,7 @@
 ![React](https://img.shields.io/badge/React-18.2-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0.2-blue)
 ![Vite](https://img.shields.io/badge/Vite-4.4.5-brightgreen)
-![Vitest](https://img.shields.io/badge/Vitest-0.x-yellow)
+![Vitest](https://img.shields.io/badge/Vitest-0.34-yellow)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3.3-blueviolet)
 
 Kickstart your web development projects with this ready-to-use template that leverages the latest and greatest technologies.
@@ -16,32 +16,57 @@ Kickstart your web development projects with this ready-to-use template that lev
 - [Vitest](https://github.com/vitejs/vitest) for unit testing with Vite.
 - [Tailwind CSS](https://tailwindcss.com/) for fast and customizable styling.
 - [Husky](https://typicode.github.io/husky/#/) with precommit hooks to ensure code quality.
-- Absolute imports configured for better code organization.
+- Absolute imports `"import Test from @/components/test"` configured for better code organization.
 
 ## Prerequisites
 
-Make sure you have Node.js and npm (or Yarn) installed on your system before getting started.
+Make sure you have Node.js and [Yarn](https://www.npmjs.com/package/yarn) installed on your system before getting started.
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/your-username/react-ts-vite-template`.
-2. Navigate to the project directory: `cd react-ts-vite-template`.
-3. Install the dependencies: `npm install` or `yarn install`.
+1. Clone this repository: `npx degit lucerojulian/react-vite-template#master projectName`.
+2. Navigate to the project directory: `cd projectName`.
+3. Install the dependencies: `yarn`.
 4. Start building your app!
 
 ## Usage
 
-- Run the Vite development server: `npm run dev` or `yarn dev`.
-- Run unit tests: `npm test` or `yarn test`.
-- Generate a production build: `npm run build` or `yarn build`.
+- Run the Vite development server: `yarn dev`.
+- Run unit tests: `yarn test`.
+- Generate a production build: `yarn build`.
 
 ## Directory Structure
 
 ```plaintext
+/.husky
+/public
 /src
+  /__tests__
+  /assets
   /components
   /hooks
   /pages
-  /styles
-/tests
+  /router
+  /shared
+  /test
+  /utilities
+  App.tsx
+  main.tsx
+
+index.html
+package.json
+README.md
+tailwind.config.js
+tsconfig.json
+vite.config.ts
 ```
+
+Adjust the directory structure to fit the needs of your project.
+
+## Contribution
+
+Contributions are welcome! If you find any issues or want to improve this template, feel free to create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENCE) file for more details.
