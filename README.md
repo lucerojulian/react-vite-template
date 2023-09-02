@@ -16,7 +16,7 @@ Kickstart your web development projects with this ready-to-use template that lev
 - [Vitest](https://github.com/vitejs/vitest) for unit testing with Vite.
 - [Tailwind CSS](https://tailwindcss.com/) for fast and customizable styling.
 - [Husky](https://typicode.github.io/husky/#/) with precommit hooks to ensure code quality.
-- Absolute imports `"import Test from @/components/test"` configured for better code organization.
+- Absolute imports `import Test from '@/components/test'` configured for better code organization.
 
 ## Prerequisites
 
