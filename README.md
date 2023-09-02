@@ -69,4 +69,4 @@ Contributions are welcome! If you find any issues or want to improve this templa
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENCE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
