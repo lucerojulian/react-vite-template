@@ -47,7 +47,6 @@ Make sure you have Node.js and [Yarn](https://www.npmjs.com/package/yarn) instal
   /hooks
   /pages
   /router
-  /shared
   /test
   /utilities
   App.tsx
