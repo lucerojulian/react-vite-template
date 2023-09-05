@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { ButtonProps } from './Button.model';
-import { generateClass } from '../../../utilities/tailwindClassGenerator';
+import { generateClass } from '../../utilities/tailwindClassGenerator';
 
 const classes = {
   initial:

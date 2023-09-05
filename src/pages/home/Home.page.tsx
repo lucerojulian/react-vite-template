@@ -1,6 +1,11 @@
-import { PrimaryButton, SecondaryButton } from '@/shared/controls';
-import { Spinner } from '@/shared/display';
-import { CheckIcon, CloseIcon, LeftArrowIcon } from '@/shared/icons';
+import {
+  PrimaryButton,
+  SecondaryButton,
+  Spinner,
+  CheckIcon,
+  CloseIcon,
+  LeftArrowIcon,
+} from '@/components';
 import { useState } from 'react';
 
 export const HomePage = () => {

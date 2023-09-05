@@ -15,6 +15,7 @@ const PrimaryButton = ({
   return (
     <Button className={`${generateClass(classes)} ${className}`} {...restProps}>
       {children}
+      <p></p>
     </Button>
   );
 };

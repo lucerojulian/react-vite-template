@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
 import { LazyComponent } from '@/components';
-import { Spinner } from '@/shared/display';
+import { Spinner } from '@/components';
 
 const routes = [
   {
